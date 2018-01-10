@@ -38,6 +38,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_
 dtrain = xgb.DMatrix(X_train, label=y_train)
 dtest  = xgb.DMatrix(X_test, label=y_test)
 
+
+#NEEDS PARAMETER TUNING!
+
 params = {'base_score':1.0, 'colsample_bylevel':1, 'colsample_bytree':1,'gamma':0,'learning_rate':0.2, 'max_delta_step':0,
 'max_depth':10,'min_child_weight':0.02, 'missing':None, 'n_estimators':700, 'nthread':2,'objective':'reg:linear',
 'reg_alpha':0, 'reg_lambda':1.0,'scale_pos_weight':1, 'seed':0, 'silent':True, 'subsample':1.0}
