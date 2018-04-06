@@ -1,0 +1,6 @@
+x = ROOT.RooRealVar("x", "", -0.7, 0.7)
+xp = ROOT.RooRealVar("xp", "",-0.3,0.3)
+sigp = ROOT.RooRealVar("sigp", "",0,0.5)
+xi = ROOT.RooRealVar("xi", "", -0.5,0.5)
+rho1 = ROOT.RooRealVar("rho1", "", -0.7,0.7)
+rho2 = ROOT.RooRealVar("rho2", "", -0.7,0.7)
