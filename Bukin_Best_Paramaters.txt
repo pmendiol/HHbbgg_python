@@ -6,3 +6,11 @@ jet1jetGenJetPtR/jet2jetGenJetPtR = ROOT.RooRealVar("jet1jetjetGenJetPtR/jet2jet
 		rho2 = ROOT.RooRealVar("rho2", "", -0.7,0.7)
     
     //shows not POSDEF for RegAlpha1 jet2jetGenJetPtR for XGB tree
+
+//THIS WORKS for jet2jetGenJetPtR for XGB tree:
+jet2jetGenJetPtR = ROOT.RooRealVar("jet2jetGenJetPtR", "", -0.7,0.7)
+		xp = ROOT.RooRealVar("xp", "",-0.7,0.7)
+		sigp = ROOT.RooRealVar("sigp", "",0.1,0.5)
+		xi = ROOT.RooRealVar("xi", "", -0.7,0.7)
+		rho1 = ROOT.RooRealVar("rho1", "", -0.7,0.7)
+		rho2 = ROOT.RooRealVar("rho2", "", -0.7,0.7)
